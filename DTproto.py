@@ -2,6 +2,8 @@ import numpy as np
 
 vertexes = np.loadtxt("ExampleInput.txt", dtype=np.float32)
 vertexes_permutated = np.random.permutation(vertexes)
+print(vertexes)
+print(vertexes_permutated)
 vertexes_permutated_index = [np.where(vertexes==i)[0][0] for i in vertexes_permutated]
 
 # deleted permunated vertex one by one, and record their neighbours
