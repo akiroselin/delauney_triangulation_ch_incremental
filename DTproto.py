@@ -20,3 +20,5 @@ for i in vertexes_permutated_index:
   if len(vertexes_index) <=2:
     break
 print(neighbours_with_deletion)
+
+#
