@@ -133,7 +133,6 @@ ax.autoscale()
 plt.show()
 
 
-
 # x_coords_deleted = [i.vertex.x for i in vertices_with_neighbors]
 # y_coords_deleted = [i.vertex.y for i in vertices_with_neighbors]
 
